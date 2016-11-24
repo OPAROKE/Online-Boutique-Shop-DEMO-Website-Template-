@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lan="en-us">
+<head>
+ <meta charset="UTF-8">
+ <title>Bouncing Cloud</title>
+ <script language="Javascript" src=""></script>
+
+ <style>
+ body{
+
+ }
+
+ #hdrdiv{
+	border-radius: 10px;
+ }
+
+ header{
+  background-color:maroon;
+  color:white;
+  height:70px;
+  border-radius: 10px;
+ }
+
+ #hdContent{
+	background: maroon;
+	border-radius: 5px;
+ }
+
+  #mainContent{
+	background-color: white;
+	border-radius: 50px;
+	padding: 100px;
+	width: 800px;
+	height: 500px;
+	overflow: hidden;
+  }
+  
+  .cloud{
+	animation: bobble 0.5s infinite;
+	
+  }
+  
+  @keyframes bobble{
+	0%{
+	    transform: translate3d(50px, 40px, 0px);
+	    animation-timing-function: ease-in;
+        }
+	50%{
+	    transform: translate3d(50px, 50px, 0px);
+	    animation-timing-function: ease-out;
+	}
+	100%{
+	    transform: translate3d(50px, 40px, 0px);
+	}
+  }
+
+ </style>
+</head>
+
+<body>
+<form name="botikhmfrm" action="menclothes.html">
+<marquee>This is property of BOTIQUE. Please use with knowledge else contact developer: oparoke@hotmail.com / fomoruto@gmail.com</marquee>
+<header><div style="color:white; font-size:xx-large; font-weight:bold;" align="center"><b>BOTIQUE</b></div></header>
+ <div id="hdContent" align="center">
+  <table border="0" style="background-color:yellow; color:darkgreen;" width="1300">
+   <tr>
+    <td align="center"><a href="botikhomepage.html"><div style="font-weight:bold; font-size:medium;"><b>HOME</b></div></a></td>
+    <td align="center"><a href="menclothes.html"><div style="font-weight:bold; font-size:medium;"><b>MEN FASHION</b></div></a></td>
+    <td align="center"><a href="womengamets.html"><div style="font-weight:bold; font-size:medium;"><b>WOMEN FASHION</b></div></a></td>
+    <td align="center"><a href="botikchild.html"><div style="font-weight:bold; font-size:medium;"><b>CHILDREN FASHION</b></div></a></td>
+    <td align="center"><a href="botikpyjamas.html"><div style="font-weight:bold; font-size:medium;"><b>PYJAMAS</b></div></a></td>
+    <td align="center"><a href="botiksports.html"><div style="font-weight:bold; font-size:medium;"><b>SPORTS</b></div></a></td>
+    <td align="center"><a href="botikfootwear.html"><div style="font-weight:bold; font-size:medium;"><b>FOOT WEAR</b></div></a></td>
+    <td align="center"><a href=""><div style="font-weight:bold; font-size:medium;"><b>HATS</b></div></a></td>
+    <td align="center"><a href="aboutbotik.html"><div style="font-weight:bold; font-size:medium;"><b>ABOUT US</b></div></a></td>
+    <td align="center"><a href="contactbotik.html"><div style="font-weight:bold; font-size:medium;"><b>CONTACT US</b></div></a></td>
+   </tr>
+  </table>
+ </div>
+<hr/>
+<center>
+  <div id="mainContent">
+    <img id="bigcloud" src="botik.jpg" alt="bigclouds" class="cloud" height="400" width="700"/>
+  </div>
+  <div align="center">
+   <button type="submit" id="btnBotik" onClick="" style="background-color:violet; font-weight:bold; font-size:x-large; font-style:italic;">GO! Botique. . .</button>
+  </div>
+</center>
+</form>
+<footer>
+<br/><hr/><br/>
+ <div align="center">
+  <button onClick="">Search</button><input type="text"/>
+ </div>
+</footer>
+</body>
+</html>

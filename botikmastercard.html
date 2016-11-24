@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lan="en-us">
+<head>
+ <title>BOTIK CREDITCARD VALIDATION</title>
+ <meta charset="UTF-8">
+ <script language="Javascript" type="text/Javascript" src="botikmastercrd.js"></script>
+ <link rel="stylesheet" type="text/css" href="botikindex.css"/>
+ <style>
+  .btncontinue{
+	background: green;
+	font-size: x-large;
+	font-weight: bold;
+  }
+ </style>
+</head>
+
+<body onload="document.botikform.txtmstrcrdnum.focus()">
+<form name="botikform" action="botiktransaction.html">
+ <div align="center">
+  <fieldset style="border:none;>
+   <legend></legend>
+    <div align="center"><img src="paypal.png" alt="botik" width="300" height="200"/></div>
+    <hr/>
+    <div align="center">
+     <table border="0">
+      <th colspan="5" style="background-color:darkgreen;"><div align="center" style="color:white; font-size:large; font-weight:bold;"><u>Provide your master card number</u></div></th>
+      <tr>
+       <td rowspan="10" align="center"></td>
+      </tr>
+      <tr>
+       <td height="60" align="right"><b>Card type :</b></td>
+       <td width="50"></td>
+       <td>
+        <div align="left">
+         <select id="">
+          <option><i>-select card-</i></option>
+          <option>Master card</option>
+          <option>Visa card</option>
+          <option>Credit card</option>
+          <option>American Express</option>
+         </select>
+        </div>
+       </td>
+       <td rowspan="9"></td>
+      </tr>
+      <tr>
+       <td align="right" height="60"><b>Card number :</b></td>
+       <td></td>
+       <td><div align="left"><input type="text" name="txtmstrcrdnum"/></div></td>
+      </tr>
+      <tr>
+       <td align="right" height="60"><b>Name on card :</b></td>
+       <td></td>
+       <td><div align="left"><input type="text" name="txtcrdname"/></div></td>
+      </tr>
+      <tr>
+       <td align="right" height="60"><b>Expiry date :</b></td>
+       <td></td>
+       <td><div align="left"><input type="date" name="txtexpdate"/></div></td>
+      </tr>
+      <tr>
+       <td align="right" height="60"><b>Billing Address :</b></td>
+       <td></td>
+       <td><div align="left"><input type="text" name="txtbilladdrss"/></div></td>
+      </tr>
+      <tr>
+       <td align="right" height="60"><b>Town / City :</b></td>
+       <td></td>
+       <td><div align="left"><input type="text" name="txtcity"/></div></td>
+      </tr>
+      <tr>
+       <td align="right" height="60"><b>State / Province :</b></td>
+       <td></td>
+       <td><div align="left"><input type="text" name="txtprovince"/></div></td>
+      </tr>
+      <tr>
+       <td align="right" height="60"><b>Zip / Postal code :</b></td>
+       <td></td>
+       <td><div align="left"><input type="text" name="txtzipcod"/></div></td>
+      </tr>
+      <tr>
+       <td align="right" height="60"><b>Country :</b></td>
+       <td></td>
+       <td><div align="left"><input type="text" name="txtcntry"/></div></td>
+      </tr>
+      <tr>
+       <td colspan="5" align="center">
+        <div align="center"><br/>
+         <input type="submit" class="btncontinue" value="Continue. . ." onClick="mstrcardNum(document.botikform.txtmstrcrdnum);"/><br/>
+        </div>
+       </td>
+      </tr>
+     </table>
+    </div>
+  </fieldset>
+ </div>
+  <br><hr/><br>
+  <div align="center"><img src="paypalphone.jpg" alt="botik" width="400" height="200"/></div>
+</form>
+<footer></footer>
+</body>
+</html>
+
+
+
+     
+     

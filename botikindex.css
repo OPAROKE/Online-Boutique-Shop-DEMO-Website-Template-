@@ -1,0 +1,26 @@
+body{
+	
+}
+header{
+  background-color:maroon;
+  color:white;
+  height:70px;
+  border-radius: 10px;
+}
+
+#hdrdiv{
+	background-color: green;
+	border-radius: 10px;
+ }
+
+.ibotikborder{
+	border:none;
+ }
+
+.btnborder{
+        background: transparent;
+        border-radius: 10px;
+        font-weight:bold;
+        color: green;
+        font-size: large;
+}
